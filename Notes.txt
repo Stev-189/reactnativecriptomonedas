@@ -1,0 +1,24 @@
+npx react-native init criptomonedas
+npx react-native run-android
+
+//para agregar otras funetes a racnative se usa una configuracion
+react-native.config.js //se usa lenguaje de nodejs
+	module.exports={
+		project:{
+			ios:{},
+			android:{}
+		},
+		assets:['./assets/fonts/']
+	}
+//si nofunciona usar en terminar 
+npx react-native link
+
+// para hacer un select en native
+npm install @react-native-picker/picker --save //powershell
+npx pod-install // para ios no me funciono windows
+
+//axios para hacer una request a la red
+npm i --save axios //simepre enm ios hacer un cd ios y pos install
+
+//ActivityIndicator
+//es comom un componenete de loading
